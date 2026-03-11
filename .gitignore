@@ -1,0 +1,48 @@
+# ========= 编译输出目录 =========
+Debug/
+Release/
+Listings/
+Objects/
+build/
+Build/
+Output/
+
+# ========= 编译生成文件 =========
+*.o
+*.obj
+*.d
+*.dep
+*.lst
+*.map
+*.axf
+*.elf
+*.hex
+*.bin
+*.lib
+*.a
+
+# ========= Keil 用户/临时文件 =========
+*.uvguix.*
+*.uvoptx
+*.plg
+*.crf
+*.bak
+*.tmp
+
+# ========= VS Code / JetBrains =========
+.vscode/
+.idea/
+*.code-workspace
+
+# ========= STM32CubeIDE / Eclipse =========
+.settings/
+.metadata/
+*.launch
+
+# ========= 系统临时文件 =========
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========= 日志文件 =========
+*.log
